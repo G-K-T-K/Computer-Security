@@ -22,8 +22,8 @@ def encrypt_vigenere(msg, key):
     return "".join(encrypted_text)
 
 
-text_to_encrypt = "Hello, World!"
-key = "KEY"
+text_to_encrypt = input("Enter the text: ")
+key = input("Enter the key: ")
 
 encrypted_text = encrypt_vigenere(text_to_encrypt, key)
 print(f"Encrypted Text: {encrypted_text}")
