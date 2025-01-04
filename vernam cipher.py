@@ -32,9 +32,9 @@ def stringDecryption(s, key):
 	return plainText
 
 
-plainText = "Hello"
+plainText = input("Enter the text: ")
 
-key = "MONEY"
+key = input("Enter the key: ")
 
 encryptedText = stringEncryption(plainText.upper(), key.upper())
 print("Cipher Text - " + encryptedText)
